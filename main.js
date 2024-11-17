@@ -4,7 +4,21 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+
+  apiKey: "AIzaSyD7TgNnKqaoZr3uIjUdH0Ad-JXQXl5oj-8",
+
+  authDomain: "syncchill-10be0.firebaseapp.com",
+
+  projectId: "syncchill-10be0",
+
+  storageBucket: "syncchill-10be0.firebasestorage.app",
+
+  messagingSenderId: "957047158098",
+
+  appId: "1:957047158098:web:6ef312c477026f32b2f68b",
+
+  measurementId: "G-XWKX0XC7ES"
+
 };
 
 if (!firebase.apps.length) {
